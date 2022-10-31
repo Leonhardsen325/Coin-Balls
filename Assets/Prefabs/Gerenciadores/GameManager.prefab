@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1388545832672928}
+  m_IsPrefabParent: 1
+--- !u!1 &1388545832672928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4285973484170814}
+  - component: {fileID: 114004644822711080}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4285973484170814
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388545832672928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.93, y: 2.72, z: -0.10376449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114004644822711080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388545832672928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51586f5e0263c3947bf4e90e947d3534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bola:
+  - {fileID: 1994084296516006, guid: 8526d388ee273984dbd7268b7a0382b3, type: 2}
+  - {fileID: 1106448619931600, guid: ab04ae5f57fc93843bbe966c40d734ff, type: 2}
+  - {fileID: 1970364768738792, guid: 183f60b79f1b3ff47be6651a52bac068, type: 2}
+  - {fileID: 1983278718577084, guid: f800edba8cd60744fa913760c0c7bc4b, type: 2}
+  - {fileID: 1597545718242412, guid: ea7e7b3e1666b984197559b37b063d68, type: 2}
+  - {fileID: 1507682712747152, guid: 7ccacce107b2be5489398f64a80e50a8, type: 2}
+  bolasNum: 2
+  bolasEmCena: 0
+  pos: {fileID: 0}
+  win: 0
+  tiro: 0
+  jogoComecou: 0
